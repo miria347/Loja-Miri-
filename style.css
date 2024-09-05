@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: small;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+#principal {
+    width: 800px;
+    height: 400px;
+    margin: 10px auto;
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 0;
+}
+
+#logo-e-menu {
+    display: flex;
+}
+
+#menu {
+    width: 160px;
+    background-color: #be0000;
+    height: 230px;
+}
+
+
+.linha-horizontal {
+    border: none; 
+    height: 2px; 
+    background-color: white; 
+    margin: 20px 1; 
+}
+
+
+
+
+
+
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    margin: 5px 0;
+    text-align: center;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+    padding: 2px 0;
+}
+
+#logo {
+    width: 710px;
+    text-align: center;
+    margin-left: auto;
+}
+
+#conteudo {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    justify-content: space-between;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.quadro {
+    
+    width: 398px;
+    height: 100px;
+    margin: 1px;
+    padding: 5px;
+    box-sizing: border-box;
+    color: white;
+    font-size: small;
+    
+}
+
+#quadro1 {
+    background-color: #cad6dc; 
+    color: #6994ae; 
+}
+#quadro1 .preto {
+    color: #000000; 
+}
+#quadro2 {
+    background-color:#e9b0b0; ; 
+    color: #e30008; 
+}
+
+#quadro3 .promocao {
+    color: #f1f41e; 
+}
+
+#quadro3 {
+    background-color:#477995; 
+    color: #ffffff; 
+}
+
+
+#quadro2 .preto {
+    color: #000000; 
+}
+
+
+#quadro4 {
+    background-color: #be0000; 
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#validator {
+    clear: both;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+b {
+    font-size: larger;
+}
+
+#topo img {
+    margin-bottom: 0px;
+}   
+
+#menu {
+    margin-bottom: 0px; /* Remover qualquer margem inferior do menu */
+}
+
+#conteudo {
+    margin-top: -23px; /* Ajustar a distância entre o menu e os quadros */
+    width: 100%;
+}
